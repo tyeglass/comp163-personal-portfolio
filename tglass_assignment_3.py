@@ -1,35 +1,35 @@
 #HEADER: Tye Glass - pt. 1 Assignment 3 - Personal Data Portfolio & Git Collaboration - COMP163010.202610 - 9/18/2025
-full_name = "Jordan Smith"
-student_email = 'jsmith@ncat.edu'
-home_town = 'Charlotte, NC'
+full_name = "Tye Glass"
+student_email = 'teglass@ncat.edu'
+home_town = 'Fayetteville, NC'
 graduation_semester = 'Spring 2028'
 major = 'Computer Science'
 
-current_course_list = ["COMP 163", 'MATH 150', 'ENG 101', 'HIS 105']
-completed_course_list = ['Biology', 'Chemistry', 'Calculus', 'Spanish II', 'World History']
-credit_hours_list = [3, 3, 3, 3]
-gpa_history_list = [3.2, 3.6, 3.4, 3.7]
-#this holds jordans full gpa history within a list]
+current_course_list = ["COMP 163", 'MATH 131', 'ENG 411', 'ECON 200']
+completed_course_list = ['Biology', 'Chemistry', 'pre calculus', 'Spanish II', 'World History']
+credit_hours_list = [3, 3, 2, 4]
+gpa_history_list = [3.2, 2.6, 2.4, 3.0]
+#this holds my full gpa history within a list]
 
-emergency_contact = ("Mom", 'Hannah Smith', '704-555-0199')
-Home_address = ('456 Oak Street', 'Charlotte, NC', '28202')
-instagram_info = ('Instagram', '@jordan_codes', 312)
-twitter_info = ('Twitter', '@jordandev', 127)
-birthday_tuple = ('Birthday', '5', '22', '2006')
+emergency_contact = ("Mom", 'Tiffany Glass', '330-565-0779')
+Home_address = ('98 Old Glory Lane', 'Cameron, NC', '28202')
+instagram_info = ('Instagram', '@itsTye', 665)
+twitter_info = ('Twitter', '@notTye', 997)
+birthday_tuple = ('Birthday', '9', '18', '2006')
 
-current_skills = {'Python basics', 'HTML', 'Problem solving', 'Time management','Photography'}
+current_skills = {'Python basics', 'c++', 'Problem solving', 'Time management','Painting'}
 skills_to_learn = {'JavaScript', 'Data structures','Git', 'Web design', 'Public speaking'}
-career_interests = {'Software development', 'Web development', 'Data science', 'Game development'}
-hobbies = {'Gaming', 'Photography', 'Reading', 'Soccer', 'Music'}
-entertainment_backlog = {'One Piece', 'Barry', 'Life', 'Incantation', 'Memento'}
+career_interests = {'Software development', 'Law', 'Data science', 'AI development'}
+hobbies = {'Drawing', 'Photography', 'Reading', 'Painting', 'Music'}
+entertainment_backlog = {'Vinland Saga', 'Dexter', 'Euphoria', 'Incantation', 'Memento'}
 #these dictionaries down below hold the users course information
-course_credits = {'COMP 163': 3, 'MATH 150': 3, 'ENG 101': 3, 'HIS 105': 3}
-course_professors = {'COMP 163': 'Prof. Rhodes', 'MATH 150': 'Dr. Lee', 'ENG 101': 'Dr. Martinez', 'HIS 105': 'Dr. Brown'}
-course_rooms = {'COMP 163': 'M-Eric 300', 'MATH 150': 'Marteena 201', 'ENG 101': 'Crosby 121', 'HIS 105': 'Crosby 210'}
-monthly_budget = {'Food': 450, 'Entertainment': 200, 'Books': 125, 'Transportation': 100}
+course_credits = {'COMP 163': 3, 'MATH 131': 3, 'ENG 411': 2, 'ECON 200': 4}
+course_professors = {'COMP 163': 'Prof. Rhodes', 'MATH 131': 'Dr. N', 'ENG 411': 'Dr. Richardson', 'ECON 200': 'Dr. Edwards'}
+course_rooms = {'COMP 163': 'M-Eric 300', 'MATH 131': 'Marteena 201', 'ENG 411': 'Crosby 206', 'ECON 200': 'Craig B212'}
+monthly_budget = {'Food': 110, 'Entertainment': 20, 'Books': 135, 'Transportation': 109}
 #calculate book cost per study hour, rounded to two decimals
-study_hours_per_subject = {'Programming': 10, 'Math': 8, 'English': 4, 'History': 3}
-contact_directory = {'Mom': '704-555-0199', 'Roommate': '336-555-7821', 'Academic Advisor': '336-334-5000'}
+study_hours_per_subject = {'Programming': 11, 'Math': 5, 'English': 4, 'Economics': 8}
+contact_directory = {'Mom': '330-565-0779', 'Roommate': '330-555-7331', 'Academic Advisor': '210-334-5220'}
 
 total_credits = sum(credit_hours_list)
 cumulative_gpa = sum(gpa_history_list) / len(gpa_history_list)
